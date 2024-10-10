@@ -1,26 +1,52 @@
 {
   "OUTPUTS": {
-      "minecraft:dirt": {
+      "framedcompactdrawers:framed_compact_drawer": {
         "mainOutput": {
           "chance": 1.0,
           "stack": {
-            "item": "the_vault:vault_scrap"
+            "item": "the_vault:gem_larimar"
           },
-          "minCount": 4,
-          "maxCount": 8
+          "minCount": 8,
+          "maxCount": 16
         },
         "extraOutput1": {
-          "chance": 0.2,
+          "chance": 1.0,
           "stack": {
-            "item": "minecraft:netherite_scrap"
+            "item": "the_vault:chromatic_steel_nugget"
+          },
+          "minCount": 12,
+          "maxCount": 24
+        },
+        "extraOutput2": {
+          "chance": 0.8,
+          "stack": {
+            "item": "the_vault:vault_diamond"
           },
           "minCount": 1,
           "maxCount": 1
+        }
+      },
+      "easy_villagers:iron_farm": {
+        "mainOutput": {
+          "chance": 1.0,
+          "stack": {
+            "item": "the_vault:black_chromatic_steel_nugget"
+          },
+          "minCount": 2,
+          "maxCount": 4
+        },
+        "extraOutput1": {
+          "chance": 0.6,
+          "stack": {
+            "item": "the_vault:gem_pog"
+          },
+          "minCount": 1,
+          "maxCount": 2
         },
         "extraOutput2": {
-          "chance": 0.0,
+          "chance": 0.8,
           "stack": {
-            "item": "the_vault:faceted_focus"
+            "item": "easy_villagers:farmer"
           },
           "minCount": 1,
           "maxCount": 1
